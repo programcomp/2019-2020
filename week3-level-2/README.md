@@ -1,4 +1,6 @@
-### Magic Square
+## 1. Magic Square
+
+### Problem: https://teamscode.com/assets/problem_pdfs/magic_square.pdf
 
 #### Input file (magic.txt)
 ```
