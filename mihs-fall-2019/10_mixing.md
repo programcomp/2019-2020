@@ -41,7 +41,7 @@ with open('mixing.txt', 'r') as f:
 ```
 
 ### Java Solution
-```
+```java
 import java.util.*;
 import java.io.*;
 
