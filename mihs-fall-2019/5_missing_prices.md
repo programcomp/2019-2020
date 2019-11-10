@@ -35,7 +35,8 @@ class Main {
    Scanner sc = new Scanner(new File("missingPrices.txt"));
    int tc = Integer.valueOf(sc.nextLine()); // read 1st line
    while (tc-- > 0) {
-     String[] A = sc.nextLine().split(" "); double x = 0.0;
+     String[] A = sc.nextLine().split(" "); 
+     double x = 0.0;
      if (A[0].equals("X")) { // Case 1
       x = 100 * Double.valueOf(A[2]) / (100.0 + Double.valueOf(A[1]));
      } else if (A[1].equals("X")) { // Case 2
